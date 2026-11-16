@@ -1,0 +1,5 @@
+agent,obstacle_info,source_training,n_runs,successes,success_rate,wilson_lo,wilson_hi,mean_first_cycle_steps,ci_lo,ci_hi,median_first_cycle_steps,mean_subsequent_cycle_steps,mean_total_steps_used
+q_fresh_masked,complete obstacle map given at target-env init (action masking only; no planning),"none (fresh table, as in Experiment A)",30,30,1.0,0.886,1.0,1077.0,721.9,1476.5,708.0,97.8,7676.0
+q_transferred_masked,complete obstacle map given at target-env init (action masking only; no planning),"unmasked source training identical to Experiment A (reused table, same seeds)",30,5,0.16666666666666666,0.073,0.336,6010.8,2058.6,10480.2,5924.0,96.8,22974.0
+q_transferred_maskcons,complete obstacle map given at target-env init (action masking only; no planning),mask-consistent source training (masking also active in the source environment),30,8,0.26666666666666666,0.142,0.444,6496.9,2750.3,11013.5,4646.0,186.1,22022.0
+q_fresh_bumpmem,"none at start; blocked moves learned from own bump events, then avoided","none (fresh table, as in Experiment A)",30,30,1.0,0.886,1.0,1460.7,1047.8,1936.0,1094.5,94.4,7744.0

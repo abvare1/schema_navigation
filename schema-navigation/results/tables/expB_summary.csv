@@ -1,0 +1,4 @@
+agent,n_runs,successes,success_rate,wilson_lo,wilson_hi,mean_first_cycle_steps,ci_lo,ci_hi,median_first_cycle_steps,mean_subsequent_cycle_steps,mean_bfs_calls_first_cycle
+schema_full,30,30,1.0,0.886,1.0,215.3,164.0,269.9,184.0,24.9,17.7
+schema_no_memory,30,30,1.0,0.886,1.0,599.3,404.5,823.2,322.0,243.0,0.0
+schema_no_task_state,30,0,0.0,0.0,0.114,,,,,,

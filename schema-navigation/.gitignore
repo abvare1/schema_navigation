@@ -1,0 +1,22 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# pytest artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated smoke-test outputs (pipeline checks, never reported as results)
+results/smoke/
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/

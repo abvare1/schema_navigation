@@ -1,0 +1,4 @@
+agent,n_runs,successes,success_rate,wilson_lo,wilson_hi,mean_first_cycle_steps,ci_lo,ci_hi,median_first_cycle_steps,mean_subsequent_cycle_steps,mean_distinct_observed_before_first_cycle,mean_delay_obsD_to_completion,mean_bfs_calls_first_cycle,mean_total_steps_used
+q_fresh,30,30,1.0,0.886,1.0,2095.9,1658.8,2557.3,2211.5,94.3,4.0,2009.8,0.0,8139.0
+q_transferred,30,20,0.6666666666666666,0.488,0.808,11792.3,8519.7,15052.5,12492.5,86.2,4.0,11464.8,0.0,18741.0
+schema,30,30,1.0,0.886,1.0,215.3,164.0,269.9,184.0,24.9,4.0,164.4,17.7,1682.0

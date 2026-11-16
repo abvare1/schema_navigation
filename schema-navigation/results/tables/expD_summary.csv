@@ -1,0 +1,5 @@
+target_task,similarity_to_source,n_runs,successes,success_rate,wilson_lo,wilson_hi,median_steps_success,mean_steps_success,median_steps_censored,mean_planner_steps,spearman_similarity_vs_steps,spearman_similarity_vs_success
+cycle,1.0,30,30,1.0,0.886,1.0,138.5,188.2,138.5,25.6,-0.7378647873726218,0.9486832980505139
+chain,0.8,30,30,1.0,0.886,1.0,131.0,182.8,131.0,20.1,-0.7378647873726218,0.9486832980505139
+branch,0.4286,30,5,0.16666666666666666,0.073,0.336,365.0,302.6,24000.0,13.0,-0.7378647873726218,0.9486832980505139
+reverse_cycle,0.1111,30,0,0.0,0.0,0.114,,,24000.0,25.6,-0.7378647873726218,0.9486832980505139

@@ -1,0 +1,8 @@
+agent,protocol,obstacle_info,source_training,n_runs,success_rate,mean_first_cycle_steps_successful_runs_only
+q_fresh,original Experiment A,no obstacle information (original protocol),none (fresh table),30,1.0,2095.9
+q_transferred,original Experiment A,no obstacle information (original protocol),unmasked source training (same seeds),30,0.6666666666666666,11792.3
+schema,original Experiment A,"complete obstacle map at init, used for BFS planning and bump-free walks (original protocol)",schema learning from reward feedback (60+5 episodes),30,1.0,215.3
+q_fresh_masked,control Experiment E (obstacle-information control),complete obstacle map given at target-env init (action masking only; no planning),"none (fresh table, as in Experiment A)",30,1.0,1077.0
+q_transferred_masked,control Experiment E (obstacle-information control),complete obstacle map given at target-env init (action masking only; no planning),"unmasked source training identical to Experiment A (reused table, same seeds)",30,0.16666666666666666,6010.8
+q_transferred_maskcons,control Experiment E (obstacle-information control),complete obstacle map given at target-env init (action masking only; no planning),mask-consistent source training (masking also active in the source environment),30,0.26666666666666666,6496.9
+q_fresh_bumpmem,control Experiment E (obstacle-information control),"none at start; blocked moves learned from own bump events, then avoided","none (fresh table, as in Experiment A)",30,1.0,1460.7
